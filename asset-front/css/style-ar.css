@@ -1,0 +1,37 @@
+/* =========================================================
+   TOP32 Dental Clinic — Arabic (RTL) styles
+   Loaded after style.css on the Arabic pages only.
+   ========================================================= */
+
+:root {
+  --font-main: 'Cairo', sans-serif;
+}
+
+body {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Arabic script must never be letter-spaced */
+h1,
+h2,
+h3,
+.tracking-tight {
+  letter-spacing: 0;
+}
+
+/* Select arrow sits on the left in RTL */
+.form-select {
+  background-position: left 0.9rem center;
+  padding-left: 2.5rem;
+}
+
+/* Keep numbers, phones and emails readable inside RTL text */
+[dir="ltr"] {
+  unicode-bidi: isolate;
+}
+
+.policy p,
+.policy li {
+  line-height: 30px;
+}
