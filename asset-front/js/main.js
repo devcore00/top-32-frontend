@@ -145,6 +145,7 @@ const CAROUSELS = {
   reviews: {
     0: { slidesPerView: 1.1, spaceBetween: 16 },
     768: { slidesPerView: 2, spaceBetween: 32 },
+    1280: { slidesPerView: 3, spaceBetween: 32 },
   },
 };
 
